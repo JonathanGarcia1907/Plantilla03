@@ -14,6 +14,45 @@ body {
   text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
 }
 
+#loginCard {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  padding: 20px;
+  width: 300px; /* Ancho de la tarjeta */
+  text-align: center;
+  margin: 0 auto; /* Centrar la tarjeta */
+}
+
+#loginMessage {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Estilos para los inputs */
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+  width: 100%; /* Hacer los inputs del ancho de la tarjeta */
+  padding: 10px;
+  margin: 10px 0; /* Margen superior e inferior */
+  border: 1px solid #ccc; /* Borde suave */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+#loginForm input[type="submit"] {
+  background-color: rgb(194,93,68,0.75); /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Padding interno */
+  cursor: pointer; /* Cursor de puntero */
+  width: 100%; /* Botón del ancho de la tarjeta */
+}
+
+#loginForm input[type="submit"]:hover {
+  background-color: rgb(194,93,68,1); /* Color del botón al pasar el ratón */
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
